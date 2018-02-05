@@ -8,12 +8,12 @@ let second = document.getElementsByClassName("second");
 //Select a list item with a class of third, but only the list item inside of the ol tag.
 let ol = document.querySelectorAll("ol .third");
 //Give the section with an id of container the text "Hello!".
-//container.innerText = "Hello" + container.innerText;
+container.innerHTML = "Hello" + container.innerHTML;
 //Add the class main to the div with a class of footer.
 let footer = document.querySelector(".footer");
-//footer.classList.add(main);
+footer.classList.add("main");
 //Remove the class main on the div with a class of footer.
-//footer.classList.remove(main);
+footer.classList.remove("main");
 //Create a new li element.
 let newLi = document.createElement("li");
 //Give the li the text "four".
@@ -27,4 +27,4 @@ for (var i = 0; i < lis.length; i++){
 lis[i].style.backgroundColor = "green";
 }
 //Remove the div with a class of footer.
-//footer.remove();
+footer.remove();
