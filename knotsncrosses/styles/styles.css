@@ -1,0 +1,16 @@
+#grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+  #grid div {
+    border: 1px solid #fff;
+    background-color: #eee;
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    line-height: 100px;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+  }
